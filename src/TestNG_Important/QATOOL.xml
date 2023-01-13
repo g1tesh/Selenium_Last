@@ -1,0 +1,11 @@
+<suite name = "features">
+<test name = "Features_Testing">
+<parameter name = "url" value = "https://demoqa.com/books"/>
+<parameter name = "test" value = "Invalid username or password!"/>
+<parameter name = "username" value = "gpatil@asda.com"/>
+<parameter name = "password" value = "Talent_123!"/>
+<classes>
+<class name = "TestNG_Important.TestNg_Features"/>
+</classes>
+</test>
+</suite>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [features]">
+  <test thread-count="5" name="Features_Testing(failed)">
+    <parameter name="password" value="Talent_123!"/>
+    <parameter name="test" value="Invalid username or password!"/>
+    <parameter name="url" value="https://demoqa.com/books"/>
+    <parameter name="username" value="gpatil@asda.com"/>
+    <classes>
+      <class name="TestNG_Important.TestNg_Features">
+        <methods>
+          <include name="xlslogin"/>
+          <include name="aftermethod"/>
+          <include name="beforemethod"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- TestNG_Important.TestNg_Features -->
+    </classes>
+  </test> <!-- Features_Testing(failed) -->
+</suite> <!-- Failed suite [features] -->

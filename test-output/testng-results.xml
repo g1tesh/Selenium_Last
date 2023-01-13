@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="3" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-30T22:30:33 IST" name="testGroup" finished-at="2022-11-30T22:30:33 IST" duration-ms="52">
+    <groups>
+      <group name="Sanity">
+        <method signature="NewGroups.group1(int)[pri:1, instance:TestNG_Important.NewGroups@53ce1329]" name="group1" class="TestNG_Important.NewGroups"/>
+      </group> <!-- Sanity -->
+      <group name="Regression">
+        <method signature="NewGroups.group1(int)[pri:1, instance:TestNG_Important.NewGroups@53ce1329]" name="group1" class="TestNG_Important.NewGroups"/>
+        <method signature="NewGroups.group3()[pri:3, instance:TestNG_Important.NewGroups@53ce1329]" name="group3" class="TestNG_Important.NewGroups"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test started-at="2022-11-30T22:30:33 IST" name="asd" finished-at="2022-11-30T22:30:33 IST" duration-ms="52">
+      <class name="TestNG_Important.NewGroups">
+        <test-method signature="group1(int)[pri:1, instance:TestNG_Important.NewGroups@53ce1329]" started-at="2022-11-30T22:30:33 IST" name="group1" finished-at="2022-11-30T22:30:33 IST" duration-ms="7" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- group1 -->
+        <test-method signature="group3()[pri:3, instance:TestNG_Important.NewGroups@53ce1329]" started-at="2022-11-30T22:30:33 IST" name="group3" finished-at="2022-11-30T22:30:33 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- group3 -->
+      </class> <!-- TestNG_Important.NewGroups -->
+    </test> <!-- asd -->
+  </suite> <!-- testGroup -->
+</testng-results>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="testGroup">
+	<test name="asd">
+	<parameter name = "num" value = "123"/>
+		<groups>
+			<run>
+				<include name = "Regression"/>
+				
+			</run>
+		</groups>
+		<classes>
+			<class name="TestNG_Important.NewGroups" />
+		</classes>
+	</test>
+</suite>
